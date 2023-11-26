@@ -2,83 +2,87 @@
 <html>
   <head>  
 		<title> Aby's personal portfolio </title>
-    <link rel="icon" href="file:///C:/Users/abir/Desktop/GoMyCode/Nouveau%20dossier%20(2)/Aby's.png" type="image/x-icon"/>
-  </head>
+    <link rel="icon" href="Aby's.png"/>
+    <link rel="stylesheet" type="text/css" href="Style.Css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">  </head>
     
     <body>
-      <h1> Aby's personal portfolio </h1>
-			<!-- this is the title -->
-      <Nav>
-      <h4>
-        <a href="#Home">Home</a>
-      </h4>
-    
-      <h4> 
-        <a href="#About me">About me</a>
-      </h4>
-      
-      <h4> 
-        <a href="#Work">My Work</a>
-      </h4>
-      
-      <h4>
-        <a href="#Resume">My Resume</a>
-      </h4>
-      
-      <h4> 
-        <a href="#Contact">Contact me</a>
-     </h4>
-     <form>
-      Search <input type="text" name="Search">
+      <header class="title">
+        <h1> Aby's personal portfolio
+          <!-- this is the title -->
+          </h1>
+      </header>
+      <header class="header">
+        
+      <nav class="Navbar">
+         <a href="#About me">About me</a>
+         <a href="#Resume">My Resume</a>
+         <a href="#Work">My Work</a>
+         <a href="#Contact"> Contact me </a>
+     <form id="Search" class="Navbar">
+      Search  <input type="text" name="Search">
      </form>
-    </Nav>
+    </nav>
+  </header>
 
      <section>
       <a name="About me"></a>
-      <h1> About me</h1>
-      <p> I can't think of anything to write about myself right now but I do need to fill the space so here you go</p>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt labore ducimus molestias impedit facilis, quis repellendus quia fugit voluptates consequuntur rerum qui nisi voluptatibus? Cumque ab nulla minima sequi illum!</p>
-      <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat adipisci delectus numquam voluptates, aliquam aspernatur quae blanditiis ipsam molestiae tenetur, eos eveniet incidunt aliquid est ullam voluptas. Repellendus, vero odio.</p>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab dolores nisi obcaecati magnam et voluptatibus amet, neque nostrum vel recusandae officiis officia nemo odio iure unde aspernatur quaerat ipsa rerum!</p>
-      <h4>Here's a list of things</h4>
-      <ul type="disc">
+      <h2 class="title2"> About me</h2>
+      <section class="Aboutme">
+      <p class="paragraph"> I can't think of anything to write about myself right now but I do need to fill the space so here you go Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt labore ducimus molestias impedit facilis, quis repellendus quia fugit voluptates consequuntur rerum qui nisi voluptatibus? Cumque ab nulla minima sequi illum! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat adipisci delectus numquam voluptates, aliquam aspernatur quae blanditiis ipsam molestiae tenetur, eos eveniet incidunt aliquid est ullam voluptas. Repellendus, vero odio. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab dolores nisi obcaecati magnam et voluptatibus amet, neque nostrum vel recusandae officiis officia nemo odio iure unde aspernatur quaerat ipsa rerum!</>
+      <h4 class="List">Here's a list of things</h4>
+      <ul type="disc" class="List">
         <li>First thing</li>
         <li>Second Thing</li>
         <Li>Third thing</Li>
       </ul>
     </section>
+
+    </section>
+
     <Section>
-      <a name="Work"></a>
-      <h1> My Work </h1>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam laborum minima omnis dignissimos! Optio vitae tenetur nesciunt, qui ad distinctio dolor. Voluptate aliquid necessitatibus aut ipsa nobis iusto, molestias inventore!</p>
-      <img src="file:///C:/Users/abir/Desktop/GoMyCode/Nouveau%20dossier%20(2)/Aby's.png"/>
+      <a name="Work" ></a>
+      <h2 class="title2"> My Work </h2>
+
+    <section class="work">
+      <img  src="Aby's.png" order="0"/>
+      <p >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam laborum minima omnis dignissimos! Optio vitae tenetur nesciunt, qui ad distinctio dolor. Voluptate aliquid necessitatibus aut ipsa nobis iusto, molestias inventore!</p>
+    </section>
 
     </Section>
-    <section>
+
+    <h2 class="title2"> My Resume </h2>
+    <section class="video">
       <a name="Resume"></a>
-      <h1> My Resume </h1>
-      <p> pretend this is my resume </p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci itaque temporibus magni ea dolores in ab molestiae tempore reprehenderit quas alias perferendis, veniam, facilis voluptates vitae laborum tempora vel ipsa.</p>
-      <h3> Leave your informations</h3>
+      <p> pretend this is my resume <Br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci itaque temporibus magni ea dolores in ab molestiae tempore reprehenderit quas alias perferendis, veniam, facilis voluptates vitae laborum tempora vel ipsa.</p>
+      <iframe width="2400" height="300" src="https://www.youtube.com/embed/9mVXPLlnSu4?si=ZSk2eER7f9g2HWew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
+<br>
+      <section class="Resume">
+      <h3 class="form"> Leave your informations</h3>
       <form>
-<label> First and last name </label>
+<label class="form"> First and last name </label>
 <Input Type="text" name="First and last name" placeholder="Write your first and last name">
       </form>
-      <form>
+      <form class="form">
        <label> E-mail Adress </label> 
        <input Type="'E-mail" name="E-mail adress" Placeholder="Write your e-mail adress">
        <button type="submit">submit</button>
       </form>
       <br>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/9mVXPLlnSu4?si=ZSk2eER7f9g2HWew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </section>
   </body>
-  <footer>
+  <footer class="Footer" >
     <section>
       <a name="Contact"></a>
       <h3>Contact me</h3>
-      <p>Phone number: +216 22 333 444</p>
-      <p>E-mail: Aby.Soltani@gmail.com</p>
+      <h5>Phone number: +216 22 333 444</h5>
+      <h5>E-mail: Aby.Soltani@gmail.com</h5>
     </section>
   </footer>
 </html>
